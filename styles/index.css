@@ -104,6 +104,9 @@ header {
 
 .info-section > h2 {
   margin-bottom: 2rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--clr-800);
 }
 
 .info-pictures {
@@ -123,4 +126,12 @@ figure > img {
   width: 200px;
   height: 200px;
   border-radius: 1rem;
+}
+
+.testimonial-section {
+  background-color: var(--clr-200);
+  margin: 0 auto;
+}
+
+.testimonial-section figure {
 }
