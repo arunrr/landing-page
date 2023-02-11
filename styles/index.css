@@ -42,6 +42,7 @@ header {
 .container {
   width: 100%;
   max-width: 1000px;
+  margin: 0 auto;
 }
 
 .nav-section {
@@ -149,6 +150,21 @@ figure > img {
   text-align: right;
   font-weight: 900;
   font-size: 1.125rem;
+}
+
+.cta-section {
+  padding: 3rem 6rem;
+  background-color: var(--clr-accent);
+  color: var(--clr-100);
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6rem auto;
+}
+
+.cta-button > .button {
+  border: 2px solid var(--clr-100);
 }
 
 footer {
