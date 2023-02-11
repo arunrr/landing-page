@@ -13,13 +13,6 @@
   box-sizing: border-box;
 }
 
-figure {
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-}
-
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -155,5 +148,12 @@ figure > img {
 .testimonial-section figcaption {
   text-align: right;
   font-weight: 900;
+  font-size: 1.125rem;
+}
+
+footer {
+  padding: 3rem;
+  text-align: center;
+  color: var(--clr-100);
   font-size: 1.125rem;
 }
