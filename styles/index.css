@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,100&display=swap");
 
 :root {
   --clr-accent: #3882f6;
@@ -72,7 +72,7 @@ header {
 .hero-left > h1 {
   font-size: 3rem;
   color: var(--clr-100);
-  font-weight: 700;
+  font-weight: 900;
   margin-bottom: 1rem;
 }
 
@@ -94,7 +94,7 @@ header {
   border-radius: 0.5rem;
   padding: 0.5rem 2rem;
   color: var(--clr-100);
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .info-section {
@@ -105,7 +105,7 @@ header {
 .info-section > h2 {
   margin-bottom: 2rem;
   font-size: 2.25rem;
-  font-weight: 700;
+  font-weight: 900;
   color: var(--clr-800);
 }
 
@@ -133,5 +133,9 @@ figure > img {
   margin: 0 auto;
 }
 
-.testimonial-section figure {
+.testimonial-section p {
+  font-weight: 100;
+  font-style: italic;
+  color: var(--clr-800);
+  font-size: 2.25rem;
 }
