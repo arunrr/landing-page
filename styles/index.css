@@ -13,12 +13,23 @@
   box-sizing: border-box;
 }
 
+figure {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
 
 .dark-bg {
   background-color: var(--clr-800);
+}
+
+.grey-bg {
+  background-color: var(--clr-200);
 }
 
 a {
@@ -99,11 +110,11 @@ header {
 
 .info-section {
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 3rem 10rem;
 }
 
 .info-section > h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   font-size: 2.25rem;
   font-weight: 900;
   color: var(--clr-800);
@@ -130,6 +141,7 @@ figure > img {
 
 .testimonial-section {
   background-color: var(--clr-200);
+  padding: 5rem;
   margin: 0 auto;
 }
 
@@ -138,4 +150,10 @@ figure > img {
   font-style: italic;
   color: var(--clr-800);
   font-size: 2.25rem;
+}
+
+.testimonial-section figcaption {
+  text-align: right;
+  font-weight: 900;
+  font-size: 1.125rem;
 }
